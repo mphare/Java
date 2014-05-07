@@ -6,3 +6,4 @@ build
 .DS_*
 classes
 .settings
+*.log
