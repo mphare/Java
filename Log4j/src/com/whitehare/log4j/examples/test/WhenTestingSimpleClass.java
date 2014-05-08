@@ -8,14 +8,14 @@ import org.junit.Test;
 import com.whitehare.log4j.examples.Log4jExamples;
 import com.whitehare.log4j.examples.SimpleClass;
 
-public class WhenTestigSimpleClass
+public class WhenTestingSimpleClass
 {
-  private static Logger logger = Logger.getLogger(WhenTestigSimpleClass.class);
+  private static Logger logger = Logger.getLogger(WhenTestingSimpleClass.class);
   
   @Test
-  public void test()
+  public void shouldLogExecution()
   {
-    logger.debug("Riunning Log4j Test");
+    logger.debug("Running Log4j Test");
     SimpleClass obj1 = new SimpleClass();
     int inputValue = 5;
     
