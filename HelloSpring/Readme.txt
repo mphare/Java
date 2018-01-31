@@ -1,7 +1,16 @@
 
-Tutorial Location:
+Where the tutorial is
+---------------------
 http://www.tutorialspoint.com/spring/spring_hello_world_example.htm
 
-
-Requires Spring Setup Tutorial:
+Prerequisites
+--------------
 http://www.tutorialspoint.com/spring/spring_environment_setup.htm
+
+What it does
+------------
+Use a Spring bean to say 'Hello World'
+
+Concepts
+--------
+Spring
