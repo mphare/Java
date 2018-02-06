@@ -12,6 +12,8 @@ import org.junit.Before;
 import org.junit.Test;
 import services.IMessageService;
 import services.MockMessageService;
+import services.parser.ILanguageParser;
+import services.parser.MockLanguageParser;
 
 public class MyTests
 {
@@ -26,6 +28,7 @@ public class MyTests
       @Override protected void configure()
       {
         bind(IMessageService.class).to(MockMessageService.class);
+        bind(ILanguageParser.class).to(MockLanguageParser.class);
       }
     });
   }
