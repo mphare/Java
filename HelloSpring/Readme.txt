@@ -7,6 +7,12 @@ Prerequisites
 --------------
 http://www.tutorialspoint.com/spring/spring_environment_setup.htm
 
+Remember
+--------
+Add Framework Support for
+ - Maven
+ - Spring
+
 What it does
 ------------
 Use a Spring bean to say 'Hello World'
@@ -14,3 +20,4 @@ Use a Spring bean to say 'Hello World'
 Concepts
 --------
 Spring
+
