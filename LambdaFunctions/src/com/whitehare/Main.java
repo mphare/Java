@@ -1,3 +1,5 @@
+package com.whitehare;
+
 public class Main {
 
   private static int value;
