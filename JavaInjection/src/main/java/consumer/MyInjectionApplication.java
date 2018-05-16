@@ -11,5 +11,6 @@ public class MyInjectionApplication implements IConsumer
   }
 
   public void processMessages(String msg, String rec) {
+    this.service.sendMessages(msg, rec);
   }
 }

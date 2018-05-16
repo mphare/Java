@@ -17,7 +17,7 @@ public class MyDIApplicationJUnitTest
       {
         return new MyInjectionApplication(new IMessageService() {
           public void sendMessages(String msg, String rec) {
-            System.out.println("Mock Message Service Implementation");
+            System.out.println("Mock Message Service Implementation - msg: " + msg + " - rec: "+rec);
           }
         });
       }
