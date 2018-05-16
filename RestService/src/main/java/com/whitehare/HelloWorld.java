@@ -1,11 +1,11 @@
-package com.example.jersey;
+package com.whitehare;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-@Path("/hello")
+@Path("/helloworld")
 public class HelloWorld {
   @GET
   @Produces(MediaType.TEXT_PLAIN)
